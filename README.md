@@ -1,2 +1,2 @@
 # pa-alera_carvajal
-Pagina presentación de tienda virtualcvdvv
+Pagina presentación de tienda virtual
