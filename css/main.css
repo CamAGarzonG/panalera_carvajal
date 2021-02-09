@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Potta+One&family=Roboto&display=swap');
+/* Bases del documento */
+/* Se quitan margenes por defecto */
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+/* ---------------------------- */
+/* ---- Cabecera ---- //GENERAL */
+/* ---------------------------- */
+
+/* Ajustes de tamaño de cabecera */
+
+header, footer{
+    max-width: 80%;
+    margin: 0% auto;
+    margin-top: 40px;
+
+}
+
+/* A. Responsive de logo */
+
+.logos{
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+}
+
+/* B. Barra de navegación */
+
+/* Margenes de secciones */
+nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position:initial;
+    background-color: whitesmoke;
+}
+
+/* Lista - quitar numerales y alinear  */
+
+nav ul {
+    list-style: none;
+    text-align: center;
+  }
+   
+/* Verticalizar lista y margenes*/
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 25px;
+}
+
+/* Editor de estilo enlaces (Sin poner cursor)  */
+
+nav ul li a{
+    padding: 8px 20px;
+    color: rgb(133, 93, 93);
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+/* Editor de estilo enlaces (Poniendo cursor)  */
+
+nav ul li a:hover{
+    padding: 7px 18px;
+    background-color: #d3d2d2;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
+
+
+/* ---------------------------- */
+/* --- Footer --- // GENERAL // */
+/* ---------------------------- */
+
+footer{
+    height: 50px;
+    text-align: center;
+}
+
+.creditos{   
+    color: grey;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+
+/* ---------------------------- */
+/* ---- Cuerpo ---- //Geneal// */
+/* ---------------------------- */
+
+.contenido{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+
+/* --- Body --- */
+
+/* Imagenes marco completo */
+
+.base{
+    max-width: 100%;
+    max-height: auto;
+    margin: auto;
+    display: inline-block;
+}
+/* Espaciado */
+
+hr {
+    height: 5px;
+    background-color: rgba(228, 135, 204, 0.986);
+  }
+
+.al {
+    height: 60px;
+    background-color: white;
+    border: white;
+    color: white;
+}
+
+
+#imagen-izquierda{
+    float: left;
+    max-width: 40%;
+    max-height: 40%;
+    margin-right: 5%;
+}
+
+.separacion{
+    width: 95%;
+    margin-left: 5%;
+}
+
+h3{
+    font-family: "Potta One";
+    text-align: center;
+    clear: right;
+    font-size: 200%;
+    margin-bottom: 6%;
+}
+
+p{
+    text-align: justify;
+    font-family: "Mystery Quest", cursive;
+    font-size: 185%;
+}
+
+
+
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.renglon{
+    background-color: white;
+    border: white;
+    height: 12px;
+}

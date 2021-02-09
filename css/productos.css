@@ -1,0 +1,53 @@
+.cajones{
+    width: 250px;
+    margin: 30px 4%;
+    display: inline-table;
+}
+
+.vender{
+    width: 100%;
+    border-radius: 20%;
+    border-style: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.ubicacion{
+    width: 100%;
+    border-radius: 20%;
+    border-style: none;
+    margin-bottom: 10px;
+    display: block;
+}
+/* ------   Contenido   ----- */
+
+.div-cajones{
+    border: none;
+    background-color: unset;
+    margin-bottom: 20px;
+}
+
+h5{
+    color: rgb(14, 2, 85);
+    font-size: 18px;
+}
+
+.descripcion{
+    font-family: cursive;
+    color: rgb(4, 184, 184);
+    font-size: 14px;
+}
+
+.anterior{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+.actual{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
