@@ -12,6 +12,11 @@
     display: block;
 }
 
+.vender:hover{
+    border: 2px solid rgb(160, 20, 130);
+    transform:scale(1.3);        
+}
+
 .ubicacion{
     width: 100%;
     border-radius: 20%;
